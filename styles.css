@@ -1,0 +1,50 @@
+.titulo{
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    text-decoration: underline;
+    top: 50px;
+    color: aqua;
+    text-shadow: 0 0 20px aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#entrada{
+    font-size: larger;
+    font-family: cursive;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50, -50);
+    height: 40px;
+    width: 500px;
+    transition: all 0.2s;
+    border-bottom: 2px solid aqua;
+    background: black;
+    color: aqua;
+}
+
+#entrada:focus{
+    box-shadow: 0 0 20px aqua;
+}
+
+#saida{
+    position: absolute;
+    background-color: black;
+    top: 60%;
+    left: 35%;
+    transform: translate(-50,-50);
+    height: 40px;
+    width: 500px;
+    border-bottom: 2px solid red;
+    box-shadow: 0 0 20px red;
+    font-size: larger ;
+    color: red;
+    font-weight: bolder;
+
+}
+
+body{
+    background: black;
+}
+
